@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="8dp"
+    android:layout_height="wrap_content"
+    app:cardUseCompatPadding="true" android:layout_width="match_parent">
+
+    <TextView
+        android:background="#ffee58"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|top"
+        android:textSize="32sp"
+        android:text="Sports"/>
+
+    <ListView
+        android:layout_marginTop="50dp"
+        android:background="#b9f6ca"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lvPlayer"/>
+
+</androidx.cardview.widget.CardView>
